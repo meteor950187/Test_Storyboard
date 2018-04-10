@@ -1,0 +1,17 @@
+//
+//  Player.h
+//  Test_Storyboard
+//
+//  Created by 謝明衞 on 2018/4/3.
+//  Copyright © 2018年 謝明衞. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Player : NSObject
+
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *game;
+@property (nonatomic, assign) int rating;
+
+@end
